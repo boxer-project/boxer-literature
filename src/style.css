@@ -1,0 +1,24 @@
+* {
+  font-family: "Fira Sans", sans-serif;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 75ch;
+  width: 100%;
+}
+
+article {
+  padding: 0rem 1.6875rem 1.6875rem 1.6875rem;
+}
+article h2:not(.h3) {
+  border-bottom: 0.3125rem solid #fdcc70;
+}
+article .api-content {
+  display: block;
+}
+article .api-content::after {
+  clear: both;
+  content: "";
+  display: table;
+}
