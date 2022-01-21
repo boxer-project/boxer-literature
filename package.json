@@ -21,6 +21,8 @@
     "homepage": "https://github.com/boxer-project/boxer-literature#readme",
     "devDependencies": {
         "@11ty/eleventy": "1.0.0",
-        "gh-pages": "3.2.3"
+        "gh-pages": "3.2.3",
+        "markdown-it": "12.3.2",
+        "markdown-it-attrs": "4.1.3"
     }
 }
