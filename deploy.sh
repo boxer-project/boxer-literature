@@ -5,7 +5,7 @@ set -x #echo on
 # checkout to the gh-pages, reset
 # and sync the branch with our main
 # change here to master if you need
-git checkout -b gh-pages
+git checkout -B gh-pages
 git reset --hard origin/main
 
 npm install
