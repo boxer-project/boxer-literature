@@ -35,3 +35,32 @@ program, but two or more.
 [How Should Students Learn (diSessa, 1999)](<../papers/How Should Students Learn - JCD (diSessa, 1999).pdf>) - Andy's response,
 developing the notion of the "committed learner" and how software for learners should support this model, in addition
 to other elements of the hierarchy of needs.
+
+## Boxer Theses
+
+Academic theses that have been written with Boxer as the main focus:
+
+[Bochser, An Integrated Scheme Programming System](<../theses/Bochser, An Integrated Scheme Programming System (Eisenberg, MIT MSc, 1985).pdf>) -
+Mike Eisenberg, an MIT Master's Thesis of 1985. Mike retrofits many of Boxer's "naive realism" mechanisms onto a traditional
+programming language, Scheme, in order to realise as many as possible of the benefits of this materialisation without
+sacrificing traditional evaluation semantics. Concludes with some highly interesting discussion on the ergonomics of
+driving language semantics from its visual interface or vice versa &mdash; following Alan Kay's 1984 observation that whilst
+the user interface had come to be the first part of a system for typical user systems, that programming languages
+had resisted this trend.
+
+> The BOCHSER system which is the subject of this report is unfortunately still an instance of
+the "interface following the language" phenomenon &mdash; the point of the system is to take an existing
+language and supply the most informative and powerful possible interface to it. 
+
+[Design of a Graphics Subsystem for Boxer](<../theses/Design of a Graphics Subsystem for Boxer (Roschelle, MIT BSc, 1985).pdf>) -
+Jeremy Roschelle, an MIT Bachelor's Thesis of 1985.
+
+
+[Boxer, The Programming Language](<../theses/Boxer, The Programming Language (Klotz, MIT BSc, 1989).pdf>) - Leigh Klotz, an MIT Bachelor's
+Thesis of 1989.
+
+[Visualising Number](<../theses/Visualising Number (Declan O'Reilly, London PhD, 1995).pdf>) - Declan O'Reilly, a London
+University PhD thesis of 1995.
+
+[Real-Time Programming and the Big Ideas of Computational Literacy](<../theses/Real-Time Programming and the Big Ideas of Computational Literacy (Hancock, MIT PhD, 2003).pdf>) -
+Chris Hancock, an MIT PhD thesis of 2003.
