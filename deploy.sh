@@ -25,6 +25,7 @@ git rm -rf --cache .
 git add .
 git commit -m "deploy"
 
+git push origin :gh-pages
 git push origin gh-pages --force
 
 # go back to main (or master)
