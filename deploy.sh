@@ -1,9 +1,11 @@
-#!/usr/bin/env
+#!/bin/bash
+set -e
+set -x #echo on
 
 # checkout to the gh-pages, reset
 # and sync the branch with our main
 # change here to master if you need
-git checkout gh-pages
+git checkout -b gh-pages
 git reset --hard origin/main
 
 npm install
