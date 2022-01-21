@@ -32,6 +32,6 @@ software was designed for.
 > Learners don't have a single goal or task when they are using an application
 program, but two or more.
 
-[How Should Students Learn (diSessa, 1999)](<papers/How Should Students Learn - JCD (diSessa, 1999).pdf>) - Andy's response,
+[How Should Students Learn (diSessa, 1999)](<../papers/How Should Students Learn - JCD (diSessa, 1999).pdf>) - Andy's response,
 developing the notion of the "committed learner" and how software for learners should support this model, in addition
 to other elements of the hierarchy of needs.
