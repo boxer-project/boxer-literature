@@ -31,7 +31,7 @@ title: Flat index to the Boxer literature
 
 [How Should Students Learn - JCD (diSessa, 1999)](<../papers/How Should Students Learn - JCD (diSessa, 1999).pdf>)
 
-[What Students Should Know About Technology - Scientific Visualisation - JSET (Friedman & diSessa, 1999)](<../papers/What Students Should Know About Technology - Scientific Visualisation - JSET (Friedman & diSessa, 1999).pdf>)
+[What Students Should Know About Technology - The Case of Scientific Visualization - JSET (Friedman & diSessa, 1999)](<../papers/What Students Should Know About Technology - Scientific Visualization - JSET (Friedman & diSessa, 1999).pdf>)
 
 [Boxer Profile - Component Computing within a Computational Medium (diSessa, 2001)](<../papers/Boxer Profile - Component Computing within a Computational Medium (diSessa, 2001).pdf>)
 

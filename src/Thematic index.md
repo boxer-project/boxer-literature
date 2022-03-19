@@ -69,7 +69,7 @@ the use of traditional, lexical scoping, of which to me (AB) the most telling is
 does not have as simple a surrogate model as dynamic scoping
 
 Conclusion makes it clear that the scoping model is a direct consequence of the copy-and-execute model and that, barring
-strange contortions, a choice for lexical scoping would imply abandoning it.
+strange contortions, a choice for lexical scoping would imply abandoning copy-and-execute.
 
 
 
@@ -77,14 +77,24 @@ strange contortions, a choice for lexical scoping would imply abandoning it.
 
 ![Ladder](../images/LaDDER.jpg){width="512" title="Layered Distributed Development of Educational Resources (from diSessa et al, 2003)" style="float: right"}
 
-First published in 2003's [Issues in Component Computing: A Synthetic Review? (diSessa et al, 2003)](<../papers/Issues in Component Computing, A Synthetic Review - ILE (diSessa, Azevedo, Parnafes, 2003).pdf>),
+First introduced in a 2001 Berkeley [technical report]((<../papers/Boxer Profile - Component Computing within a Computational Medium (diSessa, 2001).pdf>)), 
 the LaDDER (Layered Distributed Development of Educational Resources) model describes a pyramidal structure
 for organising communities of participants with different technical competences. 
+
+LaDDER was fully elaborated in 2003's [Issues in Component Computing: A Synthetic Review? (diSessa et al, 2003)](<../papers/Issues in Component Computing, A Synthetic Review - ILE (diSessa, Azevedo, Parnafes, 2003).pdf>).
 
 > The core goal of the model is to empower levels of participants with less technological expertise, 
 especially teachers and students, to solve as many of their own problems as possible.
 
 The LaDDER model appears in abbreviated form as Idea Five of [Five Powerful Ideas About Technology and Education (diSessa, 2016)](<../papers/Five Powerful Ideas About Technology and Education (diSessa, 2016).pdf>).
+
+The work described in the technical report's first case study (Number Charts) was written up in two papers by Don Ploger and Steven Hecht
+[ChartWorld (Journal of Research in Childhood Education, 2009)](<../papers/Enhancing Understanding Through Chartworld - JRCE (Ploger & Hecht, 2009).pdf>) and
+[ChartWorld (Childhood Education, 2012)](<../papers/Meaning, Memory and Multiplication - CE (Ploger & Hecht, 2012).pdf>).
+
+The work from the second case study (Image Processing Toolset) was written up by Flavio Azevedo in
+[Personal Excursions (IJCML, 2006)](<../papers/Personal Excursions - Investigating Engagement - IJCML (Azevedo, 2006).pdf>)
+and at an earlier stage in [The Case of Scientific Visualization (JSET, Friedman & diSessa 1999)](<../papers/What Students Should Know About Technology - Scientific Visualization - JSET (Friedman & diSessa, 1999).pdf>).
 
 ## Supporting Learners as Users
 
@@ -99,6 +109,36 @@ software was designed for.
 [How Should Students Learn (diSessa, 1999)](<../papers/How Should Students Learn - JCD (diSessa, 1999).pdf>) - Andy's response,
 developing the notion of the "committed learner" and how software for learners should support this model, in addition
 to other elements of the hierarchy of needs.
+
+## Boxer's Scope and Value
+
+![Ladder](../images/utility.jpg){width="512" title="Breaking the Utility Baffier (from diSessa, 1986)" style="float: right"}
+
+[Notes on the Future of Programming - UCSD Chapter 6 (diSessa, 1986)](<../papers/Notes on the Future of Programming - UCSD Chapter 6 (diSessa, 1986).pdf>) is a
+crucial document delineating Boxer's scope and arguing for its value. Here Andy speculates about then-current notions
+that "computers will disappear into the woodwork as far as ordinary people are concerned" and wonders what they
+can do for nonspecialists. Argues for the key values of **observability** that have also been promoted by
+[(Kell, 2012)](https://www.humprog.org/~stephen/research/papers/kell12jvm-preprint.pdf), and underlying Boxer's
+naive realism:
+
+> Long, silent, invisiable algorithms are much less the point that being able simply to arrange to observe and
+control an ongoing process.
+
+The domain of Boxer explicitly eschews scale:
+
+> In contrast to battling huge programs, if we can allow a broad range of simple but useful things to be done
+transparently, we will have won more than half the battle.
+
+Argues that through **continuous incremental advantage**, a computational medium could eventually pay its costs,
+amortised across the trajectory of individual users/learners, and the whole of society.
+
+Some reflections on the tension between direct manipulation and abstraction, and the limitations of both mechanisms.
+
+> Indeed, I believe that direct manipulation of symbolic computational structures will become standard,
+sepcially for nonprofessionals. But [...] I do not believe direct manipulation will soon become even an acceptable
+substitute for symbolically presenting or representing computational structures.
+
+The perennial problem of "figuring out a programmer's intended level of generalization in pointing to an object".
 
 ## Boxer Theses
 
@@ -123,6 +163,11 @@ Jeremy Roschelle, an MIT Bachelor's Thesis of 1985.
 [Boxer, The Programming Language](<../theses/Boxer, The Programming Language (Klotz, MIT BSc, 1989).pdf>) - Leigh Klotz, an MIT Bachelor's
 Thesis of 1989.
 
+Our central resource both for Boxer's early history (years between 1981 and 1985) as well as a treasure trove of details
+on Boxer's technical design, and the unique challenges raised by its fully materialised architecture. Details not only of
+Gregor Kiczales "stack jamming", representing Boxer boxes as Lisp Machine closures, Hal Abelson's implementation sharing
+tricks, and Leigh's own ingenious strategies for building the Boxer interpreter.
+
 [Visualising Number](<../theses/Visualising Number (Declan O'Reilly, London PhD, 1995).pdf>) - Declan O'Reilly, a London
 University PhD thesis of 1995.
 
@@ -131,3 +176,10 @@ Pratt, a London University PhD thesis of 1998.
 
 [Real-Time Programming and the Big Ideas of Computational Literacy](<../theses/Real-Time Programming and the Big Ideas of Computational Literacy (Hancock, MIT PhD, 2003).pdf>) -
 Chris Hancock, an MIT PhD thesis of 2003.
+
+Source of our most well-focused and broad-based critique of Boxer, under four headings on page 29. _Polish and appeal_, 
+_user threshold_ (the "low threshold, high ceiling" framing of Boxer which is at once a blessing and a curse), 
+_real-time problem_ and _parallel universe_. Chris takes criticism 3 and runs with it, creating his own fully materialised
+language, Flogo II, principally the topic of the thesis. Some highly interesting byways take us through connections
+between temporal logics in programming languages and human grammars, as well as greatly suggestive uses of live
+variables for refactoring dataflow graphs by young students.
