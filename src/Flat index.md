@@ -116,3 +116,7 @@ Pratt, a London University PhD thesis of 1998.
 
 [Real-Time Programming and the Big Ideas of Computational Literacy](<../theses/Real-Time Programming and the Big Ideas of Computational Literacy (Hancock, MIT PhD, 2003).pdf>) -
 Chris Hancock, an MIT PhD thesis of 2003.
+
+## Videos
+
+The [Boxer Reconstruction Project youtube channel](https://www.youtube.com/channel/UCM6mpnjb75v3FFrxH4vKlWQ) has several videos.
