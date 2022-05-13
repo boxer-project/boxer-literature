@@ -7,6 +7,8 @@ title: Thematic index to the Boxer literature
 
 This partisan guide is prepared by Antranig Basman, and all editorial remarks are his unless otherwise noted.
 
+It focuses on selected papers, see [Flat index](<../Flat index>) for a complete list.
+
 ## Boxer's Design
 
 ### A Principled Design for an Integrated Computational Environment

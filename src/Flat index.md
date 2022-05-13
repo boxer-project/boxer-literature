@@ -5,6 +5,8 @@ title: Flat index to the Boxer literature
 
 # A flat index to the Boxer literature
 
+See [Thematic index](<../Thematic index>) instead if you prefer  an overview of a selected subset.
+
 ## Boxer Papers
 
 [Notes on Friendly Computer Systems - MIT Logo Group Memo (diSessa, 1978)](<../papers/Notes on Friendly Computer Systems - MIT Logo Group Memo (diSessa, 1978).pdf>)
