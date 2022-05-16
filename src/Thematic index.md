@@ -79,7 +79,7 @@ strange contortions, a choice for lexical scoping would imply abandoning copy-an
 
 ![Ladder](../images/LaDDER.jpg){width="512" title="Layered Distributed Development of Educational Resources (from diSessa et al, 2003)" style="float: right"}
 
-First introduced in a 2001 Berkeley [technical report]((<../papers/Boxer Profile - Component Computing within a Computational Medium (diSessa, 2001).pdf>)), 
+First introduced in a 2001 Berkeley [technical report](<../papers/Boxer Profile - Component Computing within a Computational Medium (diSessa, 2001).pdf>), 
 the LaDDER (Layered Distributed Development of Educational Resources) model describes a pyramidal structure
 for organising communities of participants with different technical competences. 
 
