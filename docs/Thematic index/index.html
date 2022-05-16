@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Thematic index to the Boxer literature</title>
+</head>
+<body>
+    <article>
+        <h1>A thematic index to the Boxer literature</h1>
+<p>This partisan guide is prepared by Antranig Basman, and all editorial remarks are his unless otherwise noted.</p>
+<p>It focuses on selected papers, see <a href="../Flat%20index">Flat index</a> for a complete list.</p>
+<h2>Boxer's Design</h2>
+<h3>A Principled Design for an Integrated Computational Environment</h3>
+<p><a href="../papers/A%20Principled%20Design%20for%20an%20Integrated%20Computational%20Environment%20-%20ACM%20HCI%20(diSessa,%201985).pdf">A Principled Design for an Integrated Computational Environment</a>,
+a core paper (ACM HCI, 1985) motivating many of Boxer's core design choices, particularly its structural (dynamic) scoping model.</p>
+<h4>Key concepts introduced</h4>
+<p><em><strong>Detuning</strong></em> — general structures underly the computational environment that are broadly applicable, less highly tuned
+to any specific function, and always available for use. Weighs against the surface use of <em>types</em> as seen in all
+static and many dynamic programming languages.</p>
+<p><em><strong>diffused functionality</strong></em> — Instead of having any one construct serve a particular goal, several constructs can be involved.
+For example, the use of names for both documentation and reference. Together with detuning, tends towards a system design with
+structural parsimony, with fewer, more easily learnable primitives.</p>
+<p><em><strong>shallow structuring</strong></em> — anything the novice is likely to need to use or modify must be near the surface of the environment.</p>
+<p>Argues for a language/system to be closer to its <em><strong>surrogate model</strong></em> - a simple, mechanical model from which its behaviour
+can be simulated and predicted. Some compromises with a <em>functional model</em> are necessary.</p>
+<p>Warns against the extremes of the <em><strong>hacker bug</strong></em> and <em><strong>formalist bug</strong></em> of providing too many or too few primitives to structure
+a system, respectively.</p>
+<p>Sets out Boxer's <em><strong>naive realism</strong></em> (what the user thinks they see is the computational system itself rather than a
+multiply-filtered view or one dominated by side effects) and <em>structural metaphor</em> (spatial organisation has a strong
+semantic content):</p>
+<h4>Telling examples of Boxer's collapse of function:</h4>
+<blockquote>
+<p>In particular, it will become apparent how two-dimensional configurations with
+containment representing hierarchy can subsume an important core structure
+to things like program and calling structure, hierarchical data, and file
+systems.</p>
+</blockquote>
+<p>An interesting projected capability for Boxer, under the heading of <em>time modularity</em>, is the ability to save and
+restore named versions of any box.</p>
+<blockquote>
+<p>This use of box structure duplicates much of the functionality of one of the
+most successful aspects of the Smalltalk programming environment, the
+Browser, allowing leisurely perusal of the system.</p>
+</blockquote>
+<blockquote>
+<p>A named data box in a library is a variable, data waiting to be referenced.
+Thus, we have collapsed the two structures of literal reference and variable
+into one</p>
+</blockquote>
+<p>Describes Boxer's <em><strong>stepper</strong></em> (currently not functioning) as an embodiment of its surrogate model:</p>
+<blockquote>
+<p>However, the advance in Boxer is that the mode of inspection is identical to the concrete mode even beginners use to inspect any
+part of the system, and the meaning of what one sees is a direct embodiment of
+the fundamental dynamic surrogate of the system.</p>
+</blockquote>
+<h4>Scoping</h4>
+<p>Section 3.3 on scoping contains the core arguments justifying Boxer's scoping model (named &quot;dynamic&quot;), presenting four telling arguments against
+the use of traditional, lexical scoping, of which to me (AB) the most telling is</p>
+<blockquote>
+<p>What may be the most important criticism is that lexical scoping simply
+does not have as simple a surrogate model as dynamic scoping</p>
+</blockquote>
+<p>Conclusion makes it clear that the scoping model is a direct consequence of the copy-and-execute model and that, barring
+strange contortions, a choice for lexical scoping would imply abandoning copy-and-execute.</p>
+<h2>LaDDER model</h2>
+<p><img src="../images/LaDDER.jpg" alt="Ladder" width="512" title="Layered Distributed Development of Educational Resources (from diSessa et al, 2003)" style="float: right"></p>
+<p>First introduced in a 2001 Berkeley [technical report]((&lt;../papers/Boxer Profile - Component Computing within a Computational Medium (diSessa, 2001).pdf&gt;)),
+the LaDDER (Layered Distributed Development of Educational Resources) model describes a pyramidal structure
+for organising communities of participants with different technical competences.</p>
+<p>LaDDER was fully elaborated in 2003's <a href="../papers/Issues%20in%20Component%20Computing,%20A%20Synthetic%20Review%20-%20ILE%20(diSessa,%20Azevedo,%20Parnafes,%202003).pdf">Issues in Component Computing: A Synthetic Review? (diSessa et al, 2003)</a>.</p>
+<blockquote>
+<p>The core goal of the model is to empower levels of participants with less technological expertise,
+especially teachers and students, to solve as many of their own problems as possible.</p>
+</blockquote>
+<p>The LaDDER model appears in abbreviated form as Idea Five of <a href="../papers/Five%20Powerful%20Ideas%20About%20Technology%20and%20Education%20(diSessa,%202016).pdf">Five Powerful Ideas About Technology and Education (diSessa, 2016)</a>.</p>
+<p>The work described in the technical report's first case study (Number Charts) was written up in two papers by Don Ploger and Steven Hecht
+<a href="../papers/Enhancing%20Understanding%20Through%20Chartworld%20-%20JRCE%20(Ploger%20&amp;%20Hecht,%202009).pdf">ChartWorld (Journal of Research in Childhood Education, 2009)</a> and
+<a href="../papers/Meaning,%20Memory%20and%20Multiplication%20-%20CE%20(Ploger%20&amp;%20Hecht,%202012).pdf">ChartWorld (Childhood Education, 2012)</a>.</p>
+<p>The work from the second case study (Image Processing Toolset) was written up by Flavio Azevedo in
+<a href="../papers/Personal%20Excursions%20-%20Investigating%20Engagement%20-%20IJCML%20(Azevedo,%202006).pdf">Personal Excursions (IJCML, 2006)</a>
+and at an earlier stage in <a href="../papers/What%20Students%20Should%20Know%20About%20Technology%20-%20Scientific%20Visualization%20-%20JSET%20(Friedman%20&amp;%20diSessa,%201999).pdf">The Case of Scientific Visualization (JSET, Friedman &amp; diSessa 1999)</a>.</p>
+<h2>Supporting Learners as Users</h2>
+<p>An exchange between Mark Guzdial and Andy diSessa in the pages of 1999's Journal of Computer Documentation.</p>
+<p><a href="../papers/Supporting%20Learners%20as%20Users%20-%20JCD%20(Guzdial,%201999).pdf">Supporting Learners as Users (Guzdial, 1999)</a> - Mark's original article,
+setting out the requirements software supporting learners -</p>
+<blockquote>
+<p>But sometimes, the user's goal is not the same as the explicit task that the
+software was designed for.</p>
+</blockquote>
+<p><a href="../papers/How%20Should%20Students%20Learn%20-%20JCD%20(diSessa,%201999).pdf">How Should Students Learn (diSessa, 1999)</a> - Andy's response,
+developing the notion of the &quot;committed learner&quot; and how software for learners should support this model, in addition
+to other elements of the hierarchy of needs.</p>
+<h2>Boxer's Scope and Value</h2>
+<p><img src="../images/utility.jpg" alt="Ladder" width="512" title="Breaking the Utility Baffier (from diSessa, 1986)" style="float: right"></p>
+<p><a href="../papers/Notes%20on%20the%20Future%20of%20Programming%20-%20UCSD%20Chapter%206%20(diSessa,%201986).pdf">Notes on the Future of Programming - UCSD Chapter 6 (diSessa, 1986)</a> is a
+crucial document delineating Boxer's scope and arguing for its value. Here Andy speculates about then-current notions
+that &quot;computers will disappear into the woodwork as far as ordinary people are concerned&quot; and wonders what they
+can do for nonspecialists. Argues for the key values of <strong>observability</strong> that have also been promoted by
+<a href="https://www.humprog.org/~stephen/research/papers/kell12jvm-preprint.pdf">(Kell, 2012)</a>, and underlying Boxer's
+naive realism:</p>
+<blockquote>
+<p>Long, silent, invisiable algorithms are much less the point that being able simply to arrange to observe and
+control an ongoing process.</p>
+</blockquote>
+<p>The domain of Boxer explicitly eschews scale:</p>
+<blockquote>
+<p>In contrast to battling huge programs, if we can allow a broad range of simple but useful things to be done
+transparently, we will have won more than half the battle.</p>
+</blockquote>
+<p>Argues that through <strong>continuous incremental advantage</strong>, a computational medium could eventually pay its costs,
+amortised across the trajectory of individual users/learners, and the whole of society.</p>
+<p>Some reflections on the tension between direct manipulation and abstraction, and the limitations of both mechanisms.</p>
+<blockquote>
+<p>Indeed, I believe that direct manipulation of symbolic computational structures will become standard,
+sepcially for nonprofessionals. But [...] I do not believe direct manipulation will soon become even an acceptable
+substitute for symbolically presenting or representing computational structures.</p>
+</blockquote>
+<p>The perennial problem of &quot;figuring out a programmer's intended level of generalization in pointing to an object&quot;.</p>
+<h2>Boxer Theses</h2>
+<p>Academic theses that have been written with Boxer as a focus:</p>
+<p><a href="../theses/Bochser,%20An%20Integrated%20Scheme%20Programming%20System%20(Eisenberg,%20MIT%20MSc,%201985).pdf">Bochser, An Integrated Scheme Programming System</a> -
+Mike Eisenberg, an MIT Master's Thesis of 1985. Mike retrofits many of Boxer's &quot;naive realism&quot; mechanisms onto a traditional
+programming language, Scheme, in order to realise as many as possible of the benefits of this materialisation without
+sacrificing traditional evaluation semantics. Concludes with some highly interesting discussion on the ergonomics of
+driving language semantics from its visual interface or vice versa — following Alan Kay's 1984 observation that whilst
+the user interface had come to be the first part of a system for typical user systems, that programming languages
+had resisted this trend.</p>
+<blockquote>
+<p>The BOCHSER system which is the subject of this report is unfortunately still an instance of
+the &quot;interface following the language&quot; phenomenon — the point of the system is to take an existing
+language and supply the most informative and powerful possible interface to it.</p>
+</blockquote>
+<p><a href="../theses/Design%20of%20a%20Graphics%20Subsystem%20for%20Boxer%20(Roschelle,%20MIT%20BSc,%201985).pdf">Design of a Graphics Subsystem for Boxer</a> -
+Jeremy Roschelle, an MIT Bachelor's Thesis of 1985.</p>
+<p><a href="../theses/Boxer,%20The%20Programming%20Language%20(Klotz,%20MIT%20BSc,%201989).pdf">Boxer, The Programming Language</a> - Leigh Klotz, an MIT Bachelor's
+Thesis of 1989.</p>
+<p>Our central resource both for Boxer's early history (years between 1981 and 1985) as well as a treasure trove of details
+on Boxer's technical design, and the unique challenges raised by its fully materialised architecture. Details not only of
+Gregor Kiczales &quot;stack jamming&quot;, representing Boxer boxes as Lisp Machine closures, Hal Abelson's implementation sharing
+tricks, and Leigh's own ingenious strategies for building the Boxer interpreter.</p>
+<p><a href="../theses/Visualising%20Number%20(Declan%20O'Reilly,%20London%20PhD,%201995).pdf">Visualising Number</a> - Declan O'Reilly, a London
+University PhD thesis of 1995.</p>
+<p><a href="../theses/Construction%20of%20Meanings%20In%20and%20For%20a%20Stochastic%20Domain%20of%20Abstraction%20(Pratt,%20London%20PhD,%201998).pdf">Construction of Meanings In and For a Stochastic Domain of Abstraction</a> - David
+Pratt, a London University PhD thesis of 1998.</p>
+<p><a href="../theses/Real-Time%20Programming%20and%20the%20Big%20Ideas%20of%20Computational%20Literacy%20(Hancock,%20MIT%20PhD,%202003).pdf">Real-Time Programming and the Big Ideas of Computational Literacy</a> -
+Chris Hancock, an MIT PhD thesis of 2003.</p>
+<p>Source of our most well-focused and broad-based critique of Boxer, under four headings on page 29. <em>Polish and appeal</em>,
+<em>user threshold</em> (the &quot;low threshold, high ceiling&quot; framing of Boxer which is at once a blessing and a curse),
+<em>real-time problem</em> and <em>parallel universe</em>. Chris takes criticism 3 and runs with it, creating his own fully materialised
+language, Flogo II, principally the topic of the thesis. Some highly interesting byways take us through connections
+between temporal logics in programming languages and human grammars, as well as greatly suggestive uses of live
+variables for refactoring dataflow graphs by young students.</p>
+
+    </article>
+</body>
+</html>
