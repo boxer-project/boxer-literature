@@ -78,7 +78,6 @@ focus on Boxer:
 
 [24. Novice Activities in the Boxer Computational Medium (Crawford, 1995)](<../papers/CaEL/24. Novice Activities in the Boxer Computational Medium (Crawford, 1995).pdf>)
 
-
 ### Special Issue of Journal of Mathematical Behaviour, (ed. Davis, 1991) - Boxer!
 
 In April, 1991, a special issue of the Journal of Mathematical Behaviour was devoted to papers on Boxer:
@@ -94,6 +93,30 @@ In April, 1991, a special issue of the Journal of Mathematical Behaviour was dev
 [5. Sampling in Boxer (Picciotto & Ploger, 1991)](<../papers/JMB/5. Sampling in Boxer (Picciotto & Ploger, 1991).pdf>)
 
 [6. Inventing Graphing (diSessa, Sherin, Hammer, & Kolpakowski, 1992)](<../papers/JMB/6. Inventing Graphing (diSessa, Sherin, Hammer, & Kolpakowski, 1992).pdf>)
+
+### Boxer-Themed Convivial Computing Salon, 2022
+
+A [Boxer-themed workshop](https://2022.programming-conference.org/home/salon-2022) was held as part of the 
+[Convivial Computing Salon](https://2022.programming-conference.org/series/salon) series as part of the
+[<Programming>](https://2022.programming-conference.org/series/programming) conference.
+
+The following papers were presented:
+
+[1. Creating New Programming Experiences Inspired by Boxer to Develop Computationally Literate Society (Guzdial, 2022)](<../papers/Boxer Salon 2022/Boxer_2022_paper_2811-Guzdial.pdf>)
+
+[2. Boxer and Change - What's Next? (Tatar, 2022)](<../papers/Boxer Salon 2022/Boxer_2022_paper_4688-Tatar.pdf>)
+
+[3. Some Humbling Lessons from a Reconstructible Computational Medium (Azevedo, 20222)](<../papers/Boxer Salon 2022/Boxer_2022_paper_5056-Azevedo.pdf>)
+
+[4. Boxer: an Appreciation in Five Inventions (Hancock, 2022)](<../papers/Boxer Salon 2022/Boxer_2022_paper_6943-Hancock.pdf>)
+
+[5. BoxerJS: Reflections on a Javascript Boxer Implementation (Sherin, 2022)](<../papers/Boxer Salon 2022/Boxer_2022_paper_6984-Sherin.pdf>)
+
+[6. Automatic Programming and Education (Lewis, 2022)](<../papers/Boxer Salon 2022/Boxer_2022_paper_7341-Lewis.pdf>)
+
+[7. On the Generality of Boxer Principles of Spatial Metaphor and Naive Realism (Roschelle, 2022)](<../papers/Boxer Salon 2022/Boxer_2022_paper_7357-Roschelle.pdf>)
+
+[8. Boxer: A Teacher’s Experience (Picciotto, 2022)](<../papers/Boxer Salon 2022/Boxer_2022_paper_9261-Picciotto.pdf>)
 
 ## Boxer Theses
 
@@ -119,4 +142,4 @@ Chris Hancock, an MIT PhD thesis of 2003.
 
 ## Videos
 
-The [Boxer Reconstruction Project youtube channel](https://www.youtube.com/channel/UCM6mpnjb75v3FFrxH4vKlWQ) has several videos.
+The [Boxer Reconstruction Project YouTube channel](https://www.youtube.com/channel/UCM6mpnjb75v3FFrxH4vKlWQ) has several videos.
