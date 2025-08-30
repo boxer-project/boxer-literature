@@ -29,6 +29,8 @@ See [Thematic index](<../Thematic index>) instead if you prefer  an overview of 
 
 [Open Toolsets - New Ends and New Means in Learning Mathematics and Science With Computers - PME 21 (diSessa, 1997)](<../papers/Open Toolsets - New Ends and New Means in Learning Mathematics and Science With Computers - PME 21 (diSessa, 1997).pdf>)
 
+[Twenty Reasons Why You Should Use Boxer (Instead of Logo) (diSessa, 1997)](<../papers/Twenty Reasons Why You Should Use Boxer (Instead of Logo) (diSessa, 1997).pdf>)
+
 [Supporting Learners as Users - JCD (Guzdial, 1999)](<../papers/Supporting Learners as Users - JCD (Guzdial, 1999).pdf>)
 
 [How Should Students Learn - JCD (diSessa, 1999)](<../papers/How Should Students Learn - JCD (diSessa, 1999).pdf>)
