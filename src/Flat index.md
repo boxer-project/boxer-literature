@@ -5,13 +5,15 @@ title: Flat index to the Boxer literature
 
 # A flat index to the Boxer literature
 
-See [Thematic index](<../Thematic index>) instead if you prefer  an overview of a selected subset.
+See [Thematic index](<../Thematic index>) instead if you prefer an overview of a selected subset.
 
 ## Boxer Papers
 
 [Notes on Friendly Computer Systems - MIT Logo Group Memo (diSessa, 1978)](<../papers/Notes on Friendly Computer Systems - MIT Logo Group Memo (diSessa, 1978).pdf>)
 
 [A Principled Design for an Integrated Computational Environment - ACM HCI (diSessa, 1985)](<../papers/A Principled Design for an Integrated Computational Environment - ACM HCI (diSessa, 1985).pdf>)
+
+[Boxer: A Reconstructible Computational Medium - CACM (diSessa & Abelson, 1986)](<../papers/Boxer, A Reconstructible Computational Medium (diSessa & Abelson, 1986).pdf>)
 
 [Notes on the Future of Programming - UCSD Chapter 6 (diSessa, 1986)](<../papers/Notes on the Future of Programming - UCSD Chapter 6 (diSessa, 1986).pdf>)
 
